@@ -1,16 +1,16 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 /**
- * main - prints the alphabet in lowercase
- *
- * Return: 0 (yes)
+ * main - Print the alphabet in lower case
+ * it should be on a new line and use putchar function twice
+ * Return: 0 Always (yes)
  */
 int main(void)
 {
-char lc;
-for (lc = 'a'; lc <= 'z'; lc++)
-putchar(lc);
-for (lc = 'A'; lc <= 'Z'; lc++)
-putchar(lc);
+char c;
+for (c = 'a'; c <= 'z'; c++)
+putchar(c);
 putchar('\n');
 return (0);
 }
